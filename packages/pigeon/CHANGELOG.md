@@ -1,3 +1,10 @@
+## 29.1.0
+
+* [kotlin] [swift] Adds data class default values to the generated data classes when they are
+  `bool`, `int`, `double`, `String` or enum literals.
+* [dart] Fixes data class default values being dropped when the constructor is declared after the
+  fields.
+
 ## 29.0.11
 
 * [swift] Warns after FFI code generation if the `objective_c` version constraint in `pubspec.yaml` does not match the generated `ObjCVersionCheck`.
